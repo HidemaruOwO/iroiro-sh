@@ -1,3 +1,4 @@
+#!/bin/sh
 cd /usr/local/src
 sudo git clone https://github.com/neovim/neovim.git
 cd neovim
