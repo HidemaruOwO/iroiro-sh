@@ -1,3 +1,6 @@
 # iroiro-sh
-色んなシェルスクリプトです  
-zshを推奨しますが、bashやfishなどのシェルでも一応動きます
+便利なシェルスクリプトです  
+## 実行方法
+```bash
+$ curl -s <shellscriptのrawUrl> | bash
+```
