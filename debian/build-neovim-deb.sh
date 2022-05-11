@@ -1,6 +1,6 @@
 #!/bin/sh
 cd /usr/local/src
-git clone https://github.com/neovim/neovim.git
+sudo git clone https://github.com/neovim/neovim.git
 cd neovim
 sudo apt update
 sudo apt install -y cmake automake libtool libtool-bin
