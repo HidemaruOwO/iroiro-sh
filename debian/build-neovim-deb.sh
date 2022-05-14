@@ -1,8 +1,9 @@
-#!/bin/sh
-cd /usr/local/src
+#!/bin/bash
+cd ~
 sudo git clone https://github.com/neovim/neovim.git
-cd neovim
+mv neovim .neovim
+cd .neovim
 sudo apt update
 sudo apt install -y cmake automake libtool libtool-bin
-sudo make CMAKE_BUILD_TYPE=RelWithDebInfo
+make
 sudo make install
